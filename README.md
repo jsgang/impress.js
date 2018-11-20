@@ -3,20 +3,19 @@ impress.js
 
 [![CircleCI](https://circleci.com/gh/impress/impress.js.svg?style=svg)](https://circleci.com/gh/impress/impress.js)
 
-It's a presentation framework based on the power of CSS3 transforms and
-transitions in modern browsers and inspired by the idea behind prezi.com.
+它是一个基于在新的支持CSS3变换和过渡效果的浏览器下的演示框架，灵感来自于prezi.com.
 
-**WARNING**
+**警告**
 
 impress.js may not help you if you have nothing interesting to say ;)
 
 
-HOW TO USE IT
+怎么使用它
 ---------------
 
-### Checking out and initializing the git repository
+### 通过git获取源码
 
-    git clone --recursive https://github.com/impress/impress.js.git
+    git clone --recursive https://github.com/jsgang/impress.js.git
     cd impress.js
 
 Note: For a minimal checkout, omit the `--recursive` option. This will leave out extra plugins.
