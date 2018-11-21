@@ -30,9 +30,7 @@ impress.js
 
 impress.js核心功能及API参考文档请访问 [DOCUMENTATION.md](DOCUMENTATION.md).
 
-The [HTML source code](index.html) of the official [impress.js demo](http://impress.github.io/impress.js/) serves as a good example usage and contains comments explaning various features of impress.js. For more information about styling you can look into [CSS code](css/impress-demo.css) which shows how classes provided by impress.js can be used. Last but not least [JavaScript code of impress.js](js/impress.js) has some useful comments if you are interested in how everything works. Feel free to explore!
-
-### Official demo
+### 官方demo
 
 [impress.js demo](http://impress.github.io/impress.js/) by [@bartaz](http://twitter.com/bartaz)
 
