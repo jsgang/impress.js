@@ -14,11 +14,11 @@ impress.js需要一个根元素。 演示文稿的所有内容都将在该元素
 
 ### 分页元素
 
-A Step Element is an element that contains metadata that defines how it is going to be presented in the screen.
+
 分页元素是包含展示数据的元素并定义如何显示它。
-A Step Element should contain a `.step` class and an optional `id` attribute.
+
 分页元素应该包含一个`.step`类和一个可选的`id`属性。
-The content represents an html fragment that will be positioned at the center of the camera.
+
 内容表示将位于摄像机中心的html片段。
 在“步骤元素”中，您可以定义一组特定的默认属性和定位，详细将在下面描述。
 
