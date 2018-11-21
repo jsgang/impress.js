@@ -22,13 +22,13 @@ impress.js
 
 **稳定版内核**
 
-New features and fixes are continuously merged into the master branch, which is what the above command will check out. For the latest stable release, see the [Github Releases page](https://github.com/impress/impress.js/releases).
+新功能及修复不断更新到主分支, 所有的更新可以通过Check out获取. 官方版本更新日志请访问 [Github Releases page](https://github.com/impress/impress.js/releases).
 
 
-### Documentation
+### 文档
 
 
-Reference documentation of core impress.js features and API you can find it in [DOCUMENTATION.md](DOCUMENTATION.md).
+impress.js核心功能及API参考文档请访问 [DOCUMENTATION.md](DOCUMENTATION.md).
 
 The [HTML source code](index.html) of the official [impress.js demo](http://impress.github.io/impress.js/) serves as a good example usage and contains comments explaning various features of impress.js. For more information about styling you can look into [CSS code](css/impress-demo.css) which shows how classes provided by impress.js can be used. Last but not least [JavaScript code of impress.js](js/impress.js) has some useful comments if you are interested in how everything works. Feel free to explore!
 
