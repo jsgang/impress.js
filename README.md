@@ -27,8 +27,8 @@ impress.js
 
 ### 文档
 
-
 impress.js核心功能及API参考文档请访问 [DOCUMENTATION.md](DOCUMENTATION.md).
+中文demo [jsgang](http://impress.jsgang.top/demo/)
 
 ### 官方demo
 
