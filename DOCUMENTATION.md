@@ -29,7 +29,7 @@ impress.js需要一个根元素。 演示文稿的所有内容都将在该元素
     <q>Aren’t you just <b>bored</b> with all those slides-based presentations?</q>
 </div>
 ```
-
+演示地址[jsgang](http://impress.jsgang.top/demo/)
 #### 二维移动 (data-x, data-y)
 
 Define the pixel based position in which the **center** of the [Step Element](#step-element) will be positioned inside the infinite canvas.
