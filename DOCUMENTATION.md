@@ -4,22 +4,25 @@
 
 ### Root Element
 
-impress.js requires a Root Element. All the content of the presentation will be created inside that element. It is not recommended to manipulate any of the styles, attributes or classes that are created by impress.js inside the Root Element after initialization.
+impress.js需要一个根元素。 演示文稿的所有内容都将在该元素内创建。 建议不要在初始化后操作由根元素内的impress.js创建的任何样式，属性或类。
 
-**Example:**
+**示例:**
 
 ```html
 <div id="impress"></div>
 ```
 
-### Step Element
+### 分页元素
 
 A Step Element is an element that contains metadata that defines how it is going to be presented in the screen.
+分页元素是包含展示数据的元素并定义如何显示它。
 A Step Element should contain a `.step` class and an optional `id` attribute.
+分页元素应该包含一个`.step`类和一个可选的`id`属性。
 The content represents an html fragment that will be positioned at the center of the camera.
-In the Step Element, you can define a specific set of default attributes and positioning, that are documented below.
+内容表示将位于摄像机中心的html片段。
+在“步骤元素”中，您可以定义一组特定的默认属性和定位，详细将在下面描述。
 
-**Example:**
+**示例:**
 
 ```html
 <div id="bored" class="step" data-x="-1000">
@@ -27,11 +30,11 @@ In the Step Element, you can define a specific set of default attributes and pos
 </div>
 ```
 
-#### 2D Coordinates Positioning (data-x, data-y)
+#### 二维移动 (data-x, data-y)
 
 Define the pixel based position in which the **center** of the [Step Element](#step-element) will be positioned inside the infinite canvas.
 
-**Example:**
+**示例:**
 
 ```html
 <div id="bored" class="step" data-x="-1000" data-y="-1500">
@@ -39,11 +42,11 @@ Define the pixel based position in which the **center** of the [Step Element](#s
 </div>
 ```
 
-#### 2D Scaling (data-scale)
+#### 二维缩放 (data-scale)
 
 Defines the scaling multiplier of the [Step Element](#step-element) relative to other Step Elements. For example, `data-scale="4"` means that the element will appear to be 4 times larger than the others. From the presentation and transitions point of view, it means that it will have to be scaled down (4 times) to make it back to its correct size.
 
-**Example:**
+**示例:**
 
 ```html
 <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
@@ -53,11 +56,11 @@ Defines the scaling multiplier of the [Step Element](#step-element) relative to 
 </div>
 ```
 
-#### 2D Rotation (data-rotate)
+#### 二维旋转 (data-rotate)
 
 Represents the amount of clockwise rotation of the element relative to 360 degrees.
 
-**Example:**
+**示例:**
 
 ```html
 <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
